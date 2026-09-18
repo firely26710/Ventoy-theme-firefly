@@ -1,0 +1,72 @@
+# GRUB2 gfxmenu Linux theme
+# Designed for any resolution
+
+# Global Property
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#f0f0f0"
+terminal-font: "wenkai-14.pf2"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Show the boot menu
++ boot_menu {
+  left = 52%
+  top = 15%
+  width = 30%
+  height = 72%
+  item_font = "wenkai-16.pf2"
+  selected_item_font = "wenkai-18.pf2"
+  item_color = "#333333"
+  selected_item_color = "#ffffff"
+  item_height = 45
+  item_padding = 2
+  item_spacing = 4
+  item_icon_space = 6
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 8%
+  left = 68%
+  width = 28%
+  align = "right"
+  id = "__timeout__"
+  text = "愿此行在%d秒后启行！"
+  color = "#4fc3f7"
+  font = "wenkai-18.pf2"
+  text-shadow = "1 1 1 0x000000"
+}
+
++ hbox{ 
+    left = 30%
+    top = 95%
+    width = 10%
+    height = 25
+    + label {
+      text = "@VTOY_HOTKEY_TIP@"
+      font = "wenkai-12.pf2"
+      text-shadow = "1 1 1 0x000000"
+      color = "#4fc3f7"
+      align = "left"
+      } 
+}
+
++ hbox{ 
+    left = 90%
+    top = 5 
+    width = 10%
+    height = 25
+    + label {
+      text = "@VTOY_MEM_DISK@"
+      font = "wenkai-12.pf2"
+      text-shadow = "1 1 1 0x000000"
+      color = "#4fc3f7"
+      align = "left"
+      } 
+}
