@@ -90,7 +90,7 @@ firefly/
 
 欢迎各位同好分享自己制作的流萤主题背景图！如果你有一张心仪的流萤背景并愿意与大家分享，可以通过以下方式投稿：
 
-1. Fork 本仓库，将背景图放入 `backgrounds/` 目录（命名建议：`你的昵称-简短描述.png`）
+1. Fork 本仓库，将背景图放入 `DIY-backgrounds/` 目录（命名建议：`你的昵称-简短描述.png`）
 2. 提交 Pull Request
 3. 不方便使用 Git 的话，也可以在 Issues 中直接附上图片
 
@@ -203,7 +203,7 @@ Want to give Firefly a new look? It's all in `theme.txt` — edit, save, done �
 
 Fellow Firefly fans are welcome to share their own custom backgrounds! If you have a favorite Firefly wallpaper you'd like to contribute:
 
-1. Fork this repo and put your background into the `backgrounds/` directory (suggested naming: `your-name-short-description.png`)
+1. Fork this repo and put your background into the `DIY-backgrounds/` directory (suggested naming: `your-name-short-description.png`)
 2. Submit a Pull Request
 3. Not comfortable with Git? You can also attach the image directly in an Issue
 
