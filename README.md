@@ -1,1 +1,0 @@
-# Ventoy-theme-firefly
